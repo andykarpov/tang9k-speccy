@@ -1,0 +1,11 @@
+impl/pnr/*.html
+impl/pnr/*.bin
+impl/pnr/*.log
+impl/pnr/*.txt
+impl/pnr/*.db
+impl/pnr/*.binx
+impl/pnr/*.timing_paths
+impl/pnr/*.do
+impl/gwsynthesis
+impl/temp
+

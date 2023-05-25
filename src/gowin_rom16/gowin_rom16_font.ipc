@@ -1,0 +1,13 @@
+[General]
+ipc_version=4
+file=gowin_rom16_font
+module=Gowin_ROM16_font
+target_device=gw1nr9c-004
+type=ssram_rom16
+version=1.0
+
+[Config]
+DEPTH=2048
+LANG=1
+MEM_FILE=../osd/font.mi
+WIDTH=8

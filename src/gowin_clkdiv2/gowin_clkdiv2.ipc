@@ -1,0 +1,10 @@
+[General]
+ipc_version=4
+file=gowin_clkdiv2
+module=Gowin_CLKDIV2
+target_device=gw1nr9c-004
+type=clock_clkdiv2
+version=1.0
+
+[Config]
+Language=1
