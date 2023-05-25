@@ -37,3 +37,13 @@ The firmware is still under heavy development. Border effects works incorrectly 
 
 - F5,F6 - Move INT horisontal position
 - F7,F8 - Move INT vertical position
+
+## TODO
+1. Refactor a videocontroller, implement it via a classic scheme with the scandoubler
+2. Add i2c RTC and optionally i2c eeprom
+3. Add ESP8266 module support via ZXUNO UART / AY UART or ZiFi UART standard
+4. Add USB mouse as kempston mouse
+5. Add USB gamepad as kempston joystick
+6. Implement more video modes (like Timex hires, ULA+, etc)
+7. Add Tape in/out
+8. Create an addon PCB (motherboard?) for advanced peripherial
