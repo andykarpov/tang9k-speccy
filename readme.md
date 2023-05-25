@@ -47,3 +47,8 @@ The firmware is still under heavy development. Border effects works incorrectly 
 6. Implement more video modes (like Timex hires, ULA+, etc)
 7. Add Tape in/out
 8. Create an addon PCB (motherboard?) for advanced peripherial
+
+## Minimal breadboard setup
+
+![image](https://github.com/andykarpov/tang9k-speccy/raw/master/docs/breadboard.jpg)
+
