@@ -52,3 +52,40 @@ The firmware is still under heavy development. Border effects works incorrectly 
 
 ![image](https://github.com/andykarpov/tang9k-speccy/raw/master/docs/breadboard.jpg)
 
+## Pinout
+
+```
+               -----------------
+              | S2    USB    S1 |
+              |                 |
+ (SD CS)  ----| 38     T     63 |---- x
+ (SD SI)  ----| 37     A     86 |---- x (*1V8)
+ (SD SCK) ----| 36     N     85 |---- x (*1V8)
+ (SD SO)  ----| 39     G     84 |---- x (*1V8)
+ USBK D-  ----| 25           83 |---- x (*1V8)
+ USBK D+  ----| 26     N     82 |---- x (*1V8)
+ DAC R    ----| 27     A     81 |---- x (*1V8)
+ DAC L    ----| 28     N     80 |---- x (*1V8)
+ WIFI TX  ----| 29     O     79 |---- x (*1V8)
+ WIFI RX  ----| 30           77 |---- x
+ WIFI CTS ----| 33     9     76 |---- x
+ USBM D-  ----| 34     K     75 |---- (HDMI D2P)
+ USBM D+  ----| 40           74 |---- (HDMI D2N)
+ USBJ D-  ----| 35           73 |---- (HDMI D1P)
+ USBJ D+  ----| 41           72 |---- (HDMI D1N)
+ TAPEIN   ----| 42           71 |---- (HDMI D0P)
+ TAPEOUT  ----| 51           70 |---- (HDMI D0N)
+ BEEPER   ----| 53           5V |---- 5V
+ I2C SDA  ----| 54           48 |---- x
+ I2C SCL  ----| 55           49 |---- x
+ 32KHZ    ----| 56           31 |---- x
+ SQW      ----| 57           32 |---- x
+ (HDMI CKN) --| 68          GND |---- GND
+ (HDMI CKP) --| 69          3V3 |---- 3V3
+              |                 |
+              |       HDMI      |
+               _________________
+
+
+```
+
