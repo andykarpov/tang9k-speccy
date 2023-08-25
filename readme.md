@@ -22,6 +22,13 @@ The firmware is still under heavy development. Border effects works incorrectly 
 4. Connect USB keyboard (+5V, GND as well as D+, D- signals via 33 Ohm resistors)
 5. Prepare the SD card (FAT32, ESXDOS 0.8.9)
 
+## HDMI tips
+
+Some monitors and TVs do not show a picture over the Tang Nano HDMI connector.
+In this case you need to add a solder bridge instead of R1 (https://www.eevblog.com/forum/fpga/fpga-to-hdmi-variants/msg4613152/#msg4613152).
+
+![image](https://user-images.githubusercontent.com/441297/259796004-c5a170fd-7697-4b45-83d7-d7e38e41baab.png)
+
 ### Controls
 
 - F1 - Pentagon 128 with ESXDOS 0.8.9
@@ -52,7 +59,7 @@ The firmware is still under heavy development. Border effects works incorrectly 
 
 ![image](https://github.com/andykarpov/tang9k-speccy/raw/master/docs/breadboard.jpg)
 
-## Pinout
+## Pinout (WIP)
 
 ```
                -----------------
