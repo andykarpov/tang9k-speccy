@@ -46,6 +46,11 @@ port (
     DAC_OUT_L : out std_logic;
     DAC_OUT_R : out std_logic;
 
+    -- WIFI
+--    WIFI_TX : out std_logic;
+--    WIFI_RX : in std_logic;
+--    WIFI_CTS : out std_logic;
+
     -- buttons
     BTN : in std_logic_vector(1 downto 0);
 
